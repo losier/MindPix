@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "default";
+  cursor: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --color-bg: #000814;
+  --color-primary: #001d3d;
+  --color-primary-light: #003566;
+  --color-secondry: #ffc300;
+  --color-secondry-light: #ffd60a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100vw;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-secondry-light);
+  line-height: 1, 7;
+}
