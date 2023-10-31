@@ -25,11 +25,12 @@ body,
 }
 
 :root {
-  --color-bg: #000814;
+  --color-bg: rgba(0, 0, 0, 0.8);
   --color-primary: #001d3d;
   --color-primary-light: #003566;
   --color-secondry: #ffc300;
   --color-secondry-light: #ffd60a;
+  --color-secondry-varient: #f6e58d;
 }
 
 html {
@@ -44,7 +45,16 @@ body {
 
 body {
   font-family: "Raleway", sans-serif;
-  background: var(--color-bg);
+  background-color: var(--color-bg);
   color: var(--color-secondry-light);
   line-height: 1, 7;
+}
+
+.btn {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  transition: all .5s ease; 
 }
